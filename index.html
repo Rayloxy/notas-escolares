@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistema de Notas — Visualizador</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">SN</div>
+        <div>
+          <h1>Sistema de Notas — Visualizador</h1>
+          <p class="subtitle">Visualize notas e situação dos alunos • Imersão</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <input id="campo-busca" type="search" placeholder="Pesquisar aluno..." aria-label="Pesquisar aluno" />
+        <select id="filtro-status" title="Filtrar por status">
+          <option value="todos">Todos os status</option>
+          <option value="aprovado">Aprovado</option>
+          <option value="recuperacao">Recuperação</option>
+          <option value="reprovado">Reprovado</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <section class="stats" id="stats" aria-hidden="true"></section>
+
+      <section class="card-container" id="cards" aria-live="polite"></section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Rayan • Imersão Dev • Alura & Google</p>
+    </footer>
+  </div>
+
+  <!-- Modal de detalhes (somente leitura) -->
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card" role="document">
+      <button id="modal-close" class="modal-close" aria-label="Fechar">✕</button>
+      <h2 id="modal-title">Detalhes do aluno</h2>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

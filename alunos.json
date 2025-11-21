@@ -1,0 +1,66 @@
+[
+  {
+    "nome": "Ana Clara",
+    "imagem": "https://api.dicebear.com/9.x/adventurer/svg?seed=Nolan",
+    "notas": {
+      "ARTE": 8.5,
+      "BIOLOGIA": 9,
+      "EDUCAÇÃO FÍSICA": 10,
+      "FÍSICA": 7,
+      "GEOGRAFIA": 8,
+      "HISTÓRIA": 8.5,
+      "LÍNGUA INGLESA": 9,
+      "LÍNGUA PORTUGUESA": 9.5,
+      "MATEMÁTICA": 8,
+      "QUÍMICA": 7.5
+    }
+  },
+  {
+    "nome": "João Pedro",
+    "imagem": "https://api.dicebear.com/9.x/adventurer/svg?seed=Emery",
+    "notas": {
+      "ARTE": 6,
+      "BIOLOGIA": 5,
+      "EDUCAÇÃO FÍSICA": 9,
+      "FÍSICA": 4,
+      "GEOGRAFIA": 6,
+      "HISTÓRIA": 5.5,
+      "LÍNGUA INGLESA": 6,
+      "LÍNGUA PORTUGUESA": 6.5,
+      "MATEMÁTICA": 5,
+      "QUÍMICA": 4.5
+    }
+  },
+  {
+    "nome": "Mariana Silva",
+    "imagem": "https://api.dicebear.com/9.x/adventurer/svg?seed=Kimberly",
+    "notas": {
+      "ARTE": 10,
+      "BIOLOGIA": 9.5,
+      "EDUCAÇÃO FÍSICA": 9,
+      "FÍSICA": 9,
+      "GEOGRAFIA": 9.5,
+      "HISTÓRIA": 9,
+      "LÍNGUA INGLESA": 10,
+      "LÍNGUA PORTUGUESA": 9.5,
+      "MATEMÁTICA": 9.8,
+      "QUÍMICA": 9
+    }
+  },
+  {
+    "nome": "Lucas Oliveira",
+    "imagem": "https://api.dicebear.com/9.x/adventurer/svg?seed=Chase",
+    "notas": {
+      "ARTE": 4,
+      "BIOLOGIA": 3.5,
+      "EDUCAÇÃO FÍSICA": 6,
+      "FÍSICA": 3,
+      "GEOGRAFIA": 4.5,
+      "HISTÓRIA": 5,
+      "LÍNGUA INGLESA": 4,
+      "LÍNGUA PORTUGUESA": 4.8,
+      "MATEMÁTICA": 3.2,
+      "QUÍMICA": 2.5
+    }
+  }
+]
